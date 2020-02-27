@@ -26,7 +26,6 @@ def parse(course, content) -> Set:
             activity = elem.text
         elif re.search("<table border=\"1\">", str(elem), re.MULTILINE) != None:
             for t in elem.find_all("tr"):
-                # print(t.prettify(), "\n---------------------------\n")
                 es = parse_table(t, course, activity)
                 events.update(es)
         # Reset to find next element

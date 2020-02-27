@@ -1,0 +1,6 @@
+# Setup
+Quick n' dirty au timetable parser. Saves calendar in .ics format. Requirements can be installed using the command
+```python
+pip install -r requirements.txt
+```
+Please assign username (AUxxxxxx) and password to variables `USERNAME` and `PASSWORD` in seperate file named `credentials.py`.
