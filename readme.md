@@ -1,5 +1,5 @@
 # Setup
-Quick n' dirty au timetable parser. Saves calendar in .ics format. Requirements can be installed using the command
+Quick n' dirty AU timetable parser. Saves calendar in .ics format. Requirements can be installed using the command
 ```python
 pip install -r requirements.txt
 ```
