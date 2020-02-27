@@ -3,4 +3,4 @@ Quick 'n dirty AU timetable parser. Saves calendar in .ics format. Requirements 
 ```python
 pip install -r requirements.txt
 ```
-Please assign username (AUxxxxxx) and password to variables `USERNAME` and `PASSWORD` in seperate file named `credentials.py`.
+Please assign username (AUxxxxxx) and password to variables `USERNAME` and `PASSWORD` in seperate file named `credentials.py`. After that run the `main.py` file.

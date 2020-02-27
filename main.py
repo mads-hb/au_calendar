@@ -4,11 +4,9 @@ from mechanize import Browser
 from bs4 import BeautifulSoup
 from typing import Set
 import re
-import sys
 from datetime import datetime
 import locale
 import pytz
-from pprint import pprint
 
 
 locale.setlocale(locale.LC_ALL, 'da_DK')
