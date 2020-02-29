@@ -82,7 +82,7 @@ def main():
     for (course, cont) in zip(courses, content):
         es = parse(course, cont)
         events.update(es)
-    cal = ics.Calendar(events=events, creator="mads@baattrup.com")
+    cal = ics.Calendar(events=events, creator="info@baattrup.com")
     return cal
 
 
