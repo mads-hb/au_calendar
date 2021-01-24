@@ -53,10 +53,12 @@ def parse_table(table, course, activity) -> Set:
         if "-" not in p:
             e = make_event(course, activity, location.text,
                            start, end, weekday.text, p)
+            events.add(e)
             continue
         (s, e) = p.split("-")
         for i in range(int(s), int(e) + 1):
-            i = i - 1
+            # print(i)
+            #i = i - 1
             if len(str(i)) == 1:
                 i = "0" + str(i)
             e = make_event(course, activity, location.text,
